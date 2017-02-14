@@ -1,0 +1,8 @@
+name: chefkata_inspec
+title: Chef Kata InSpec Tests
+maintainer: Annie Hedgpeth
+copyright: The Authors
+copyright_email: annie.hedgpeth@gmail.com
+license: All Rights Reserved
+summary: An InSpec Profile to validate my Chef Kata
+version: 0.1.0
