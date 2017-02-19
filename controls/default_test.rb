@@ -35,5 +35,10 @@ end
 
 describe file('/var/website/welcome.txt') do
   it { should exist }
-  its('content') { should eq 'Welcome To Chef Learning!' }
+  its('content') { should eq 'Welcome to Chef Learning!' }
+end
+
+describe file('/var/website/here.txt') do
+  it { should exist }
+  its('content') { should match 'Here for dev but not prod' }
 end
